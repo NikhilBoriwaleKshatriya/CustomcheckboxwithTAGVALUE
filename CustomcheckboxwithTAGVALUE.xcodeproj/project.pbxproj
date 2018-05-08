@@ -14,6 +14,10 @@
 		F15E772C20A07DD700B42672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15E772A20A07DD700B42672 /* LaunchScreen.storyboard */; };
 		F15E773720A07DD800B42672 /* CustomcheckboxwithTAGVALUETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E773620A07DD800B42672 /* CustomcheckboxwithTAGVALUETests.swift */; };
 		F15E774220A07DD800B42672 /* CustomcheckboxwithTAGVALUEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E774120A07DD800B42672 /* CustomcheckboxwithTAGVALUEUITests.swift */; };
+		F15E775820A07DE900B42672 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F15E775020A07DE800B42672 /* BEMAnimationManager.m */; };
+		F15E775920A07DE900B42672 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = F15E775320A07DE800B42672 /* BEMCheckBoxGroup.m */; };
+		F15E775A20A07DE900B42672 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F15E775620A07DE900B42672 /* BEMCheckBox.m */; };
+		F15E775B20A07DE900B42672 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F15E775720A07DE900B42672 /* BEMPathManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,15 @@
 		F15E773D20A07DD800B42672 /* CustomcheckboxwithTAGVALUEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomcheckboxwithTAGVALUEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15E774120A07DD800B42672 /* CustomcheckboxwithTAGVALUEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomcheckboxwithTAGVALUEUITests.swift; sourceTree = "<group>"; };
 		F15E774320A07DD800B42672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15E774F20A07DE700B42672 /* CustomcheckboxwithTAGVALUE-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomcheckboxwithTAGVALUE-Bridging-Header.h"; sourceTree = "<group>"; };
+		F15E775020A07DE800B42672 /* BEMAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnimationManager.m; sourceTree = "<group>"; };
+		F15E775120A07DE800B42672 /* BEMAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnimationManager.h; sourceTree = "<group>"; };
+		F15E775220A07DE800B42672 /* BEMCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBox.h; sourceTree = "<group>"; };
+		F15E775320A07DE800B42672 /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		F15E775420A07DE800B42672 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		F15E775520A07DE900B42672 /* BEMPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMPathManager.h; sourceTree = "<group>"; };
+		F15E775620A07DE900B42672 /* BEMCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBox.m; sourceTree = "<group>"; };
+		F15E775720A07DE900B42672 /* BEMPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMPathManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +110,21 @@
 		F15E772020A07DD700B42672 /* CustomcheckboxwithTAGVALUE */ = {
 			isa = PBXGroup;
 			children = (
+				F15E775120A07DE800B42672 /* BEMAnimationManager.h */,
+				F15E775020A07DE800B42672 /* BEMAnimationManager.m */,
+				F15E775220A07DE800B42672 /* BEMCheckBox.h */,
+				F15E775620A07DE900B42672 /* BEMCheckBox.m */,
+				F15E775420A07DE800B42672 /* BEMCheckBoxGroup.h */,
+				F15E775320A07DE800B42672 /* BEMCheckBoxGroup.m */,
+				F15E775520A07DE900B42672 /* BEMPathManager.h */,
+				F15E775720A07DE900B42672 /* BEMPathManager.m */,
 				F15E772120A07DD700B42672 /* AppDelegate.swift */,
 				F15E772320A07DD700B42672 /* ViewController.swift */,
 				F15E772520A07DD700B42672 /* Main.storyboard */,
 				F15E772820A07DD700B42672 /* Assets.xcassets */,
 				F15E772A20A07DD700B42672 /* LaunchScreen.storyboard */,
 				F15E772D20A07DD700B42672 /* Info.plist */,
+				F15E774F20A07DE700B42672 /* CustomcheckboxwithTAGVALUE-Bridging-Header.h */,
 			);
 			path = CustomcheckboxwithTAGVALUE;
 			sourceTree = "<group>";
@@ -193,6 +215,7 @@
 				TargetAttributes = {
 					F15E771D20A07DD700B42672 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					F15E773120A07DD800B42672 = {
@@ -260,7 +283,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F15E772420A07DD700B42672 /* ViewController.swift in Sources */,
+				F15E775B20A07DE900B42672 /* BEMPathManager.m in Sources */,
+				F15E775920A07DE900B42672 /* BEMCheckBoxGroup.m in Sources */,
 				F15E772220A07DD700B42672 /* AppDelegate.swift in Sources */,
+				F15E775820A07DE900B42672 /* BEMAnimationManager.m in Sources */,
+				F15E775A20A07DE900B42672 /* BEMCheckBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,11 +453,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQS9CNTUX7;
 				INFOPLIST_FILE = CustomcheckboxwithTAGVALUE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.infostretch.CustomcheckboxwithTAGVALUE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomcheckboxwithTAGVALUE/CustomcheckboxwithTAGVALUE-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +471,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQS9CNTUX7;
 				INFOPLIST_FILE = CustomcheckboxwithTAGVALUE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.infostretch.CustomcheckboxwithTAGVALUE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomcheckboxwithTAGVALUE/CustomcheckboxwithTAGVALUE-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
